@@ -33,3 +33,15 @@
     text-align: center;
     float:none; 
 }
+/* about us  */
+#about .title{
+    font-size:x-large;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+}
+#about p{
+    text-align: center;
+    font-style: normal;
+    font-size:18.5px;
+}
