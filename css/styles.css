@@ -130,22 +130,16 @@
   }
   #portifolio_3:hover{
     background: linear-gradient(white), transparent, url("/assets/portfolio/work2.jpg");
-    background-size: cover;
-  
-}
-  
+    background-size: cover;  
+}  
     #portifolio_4{
     background-image: url("/assets/portfolio/work1.jpg");
-    background-size: cover;
-  
+    background-size: cover;  
   }
   #portifolio_4:hover{
     background: linear-gradient(rgba(0, 0, 0, 0.8),transparent), url("/assets/portfolio/work1.jpg");
-    background-size: cover;
-  
-  
-  }
-  
+    background-size: cover;  
+  }  
   #portifolio_5{
     background-image: url("/assets/portfolio/work5.jpg");
     background-size: cover;
@@ -153,43 +147,32 @@
   }
   #portifolio_5:hover{
     background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("/assets/portfolio/work5.jpg");
-    background-size: cover;
+    background-size: cover; 
   
-  
-  }
-    
+  }    
   #portifolio_6{
     background-image: url("/assets/portfolio/work6.jpg");
-    background-size: cover;
-  
+    background-size: cover;  
   }
   #portifolio_6:hover{
     background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("/assets/portfolio/work6.jpg");
-    background-size: cover;
-  
-  
-  }
-    
+    background-size: cover;   
+  }    
   #portifolio_7{
     background-image: url("/assets/portfolio/work7.jpg");
-    background-size: cover;
-  
+    background-size: cover;  
   }
   #portifolio_7:hover{
     background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("/assets/portfolio/work7.jpg");
-    background-size: cover;
-    
-  }
-  
+    background-size: cover;    
+  }  
   #portifolio_8{
     background-image: url("/assets/portfolio/work8.jpg");
-    background-size: cover;
-  
+    background-size: cover;  
   }
   #portifolio_8:hover{
     background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("/assets/portfolio/work8.jpg");
-    background-size: cover;
-  
+    background-size: cover; 
   
   }
   .col-md-3 .solid-border{
@@ -201,8 +184,54 @@
     font-weight: bold;
     text-align: center;    
     display: none;
-  } 
-  
+  }   
   .col-md-3 .solid-border h1{
     font-size: 35px;
+  }
+                /* contact us */
+
+  #contact-us{
+    background-image: url("/assets/backgrounds/c_image.jpg");
+    background-size: cover;    
+    justify-content: center;   
+    display: flex; 
+  }
+  #contact-us .contact h2{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: white;
+    margin-top: 60px;  
+  }
+  
+ #contact-form .row{
+    display: inline;
+}
+ #name, #email,#message, ::placeholder{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+}
+  #contact-us .contact input{
+    width: 47%;
+    margin: 15px;    
+    margin-bottom: 25px;
+  }      
+  #message{
+    width: 96%;
+    margin-left: 20px;
+    background: transparent;
+    border: 1px solid;
+    color: white;   
+    margin-bottom: 20px;   
+  }  
+  .btn{
+    margin-bottom: 80px;
+    margin-left: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+  }  
+  .btn:hover{
+    background-color:blueviolet;
   }
