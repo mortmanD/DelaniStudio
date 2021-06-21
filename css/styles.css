@@ -45,3 +45,15 @@
     font-style: normal;
     font-size:18.5px;
 }
+#services{
+    background-image: url("/assets/backgrounds/s_image.jpg");
+    
+}
+#services {
+        width: 100%;
+        text-align: center;
+        color: white;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+}
