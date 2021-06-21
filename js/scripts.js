@@ -130,3 +130,35 @@ $(document).ready(function(){
         );
       });
       
+    //   form js
+
+    function EmailValidate(useremail) {
+        var regex = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+        return regex.test(useremail);
+      };
+      $(document).ready(function(){
+        $("#contact-form").submit(function(event){
+          var name = $("#name").val();
+          var useremail = $("#email").val();
+          var message = $("#message").val();
+          if (!$("#name").val()){
+            alert("Name field can not be empty!")
+          }
+          else if (!$("#email").val()){
+            alert("Email can not be null!");
+          }
+          if (!EmailValidate($("#email").val())) {
+            alert("inputted email is invalid!");
+        }
+        else if (!$("#message").val()){
+          alert("Message can not be empty!");
+        }
+        else{
+            alert ("Thank you for your message " +name);
+          }
+          $('#contact-form').get(0).reset();
+          return false;
+          
+        });
+      
+      });
