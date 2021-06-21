@@ -66,6 +66,9 @@
     padding-top: 40px;
     
   }
+  #whatwedo .row{
+      padding-top: 5px;
+  }
 
 .design-description, .development-description, .product-description{
     display: none;
