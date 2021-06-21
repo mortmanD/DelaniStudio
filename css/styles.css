@@ -1,0 +1,35 @@
+/* welcome */
+#welcome{
+    background-image: url("/assets/backgrounds/h_img.jpg");
+   
+    background-size: cover;
+        
+}
+.navbar-brand{
+    padding-top: 210px;
+    text-align: center;
+    float:none; 
+}
+#welcome h1 {
+    padding-top: 20px;
+    color: white;
+    text-align: center;  
+
+}
+#welcome h2 {  
+    color: white;
+    text-align: center;
+    
+}
+#welcome h3{
+    color: white; 
+    text-align: center;
+    font-size: small;
+   
+}
+.clickicon{
+    padding-top: 11em;
+    padding-bottom: 2em;
+    text-align: center;
+    float:none; 
+}
