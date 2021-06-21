@@ -73,3 +73,136 @@
 .design-description, .development-description, .product-description{
     display: none;
   }
+  .portfolio{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 25px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left:15%;
+    margin-right: 15%; 
+    margin-bottom: 40px;
+  
+  }
+  #portfolio h3{
+    text-align: center;
+    padding-top:40px;
+  }
+  .card{
+    height: 195px;
+    width: 100%;
+    background-size: cover;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  #portifolio_1{
+    background-image: url("/assets/portfolio/work4.jpg");
+    background-size: cover;
+  }
+  #portifolio_1:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/assets/portfolio/work4.jpg");
+    background-size: cover;
+  
+  }
+  
+  
+  #portifolio_2{
+    background-image: url("/assets/portfolio/work3.jpg");
+    background-size: cover;
+  
+  }
+  #portifolio_2:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/assets/portfolio/work3.jpg");
+    background-size: cover;
+  
+  
+  }
+  
+  #portifolio_3{
+    background-image: url("/assets/portfolio/work2.jpg");
+    background-size: cover;
+  
+  }
+  #portifolio_3:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/assets/portfolio/work2.jpg");
+    background-size: cover;
+  
+}
+  
+    #portifolio_4{
+    background-image: url("/assets/portfolio/work1.jpg");
+    background-size: cover;
+  
+  }
+  #portifolio_4:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/assets/portfolio/work1.jpg");
+    background-size: cover;
+  
+  
+  }
+  
+  #portifolio_5{
+    background-image: url("/assets/portfolio/work5.jpg");
+    background-size: cover;
+  
+  }
+  #portifolio_5:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/assets/portfolio/work5.jpg");
+    background-size: cover;
+  
+  
+  }
+    
+  #portifolio_6{
+    background-image: url("/assets/portfolio/work6.jpg");
+    background-size: cover;
+  
+  }
+  #portifolio_6:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/assets/portfolio/work6.jpg");
+    background-size: cover;
+  
+  
+  }
+    
+  #portifolio_7{
+    background-image: url("/assets/portfolio/work7.jpg");
+    background-size: cover;
+  
+  }
+  #portifolio_7:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/assets/portfolio/work7.jpg");
+    background-size: cover;
+    
+  }
+  
+  #portifolio_8{
+    background-image: url("/assets/portfolio/work8.jpg");
+    background-size: cover;
+  
+  }
+  #portifolio_8:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/assets/portfolio/work8.jpg");
+    background-size: cover;
+  
+  
+  }
+  .col-md-3 .solid-border{
+    position: absolute;
+    height: 441.6px;
+    width: 85%;
+    border: 3px solid white;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    display: none;
+  } 
+  
+  .col-md-3 .solid-border h1{
+    font-size: 35px;
+  }
