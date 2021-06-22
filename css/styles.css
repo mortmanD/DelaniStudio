@@ -215,6 +215,9 @@
 #contact-form .row{
   display: inline;
 }
+.mc-field-group .row{
+  display: inline;
+}
 #name, #email,#message, ::placeholder{
   background-color: transparent;
   border-color: white;
@@ -259,7 +262,58 @@
     text-align: center;
 }
 
+#mc_embed_signup{
+  background-image: url("/assets/backgrounds/c_image.jpg");
+  background-size: cover;    
+  justify-content: center;   
+  display: flex; 
+  padding-bottom: 45px;
+  
+}
+.indicates-required{
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  color: white;
+  margin-top: 60px;  
+}
 
+.mc-field-group .row{
+  display: inline;
+  
+}
+
+
+#mce-NAME, #mce-EMAIL,#mce-MSG, label,::placeholder{
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+}
+#mc-field-group value{
+  width: 86%;
+  margin: 15px;    
+  margin-bottom: 25px;
+}      
+#mce-MSG{
+  width: 96%;
+  height: 23vh;
+  margin-left: 20px;
+  background: transparent;
+  border: 1px solid;
+  color: white;   
+  margin-bottom: 20px;   
+}  
+.button{
+  margin-bottom: 80px;
+  margin-left: 40px;
+  background-color: transparent;
+  border: 1px solid white;
+}  
+.button:hover{
+  background-color:blueviolet;
+}
  }
  /* tablets */
 @media only screen and (max-width: 600px) {
@@ -517,9 +571,61 @@
 }
 
 
- }
+ 
+
+ 
+/* mailchip stuff */
+
+ #mc_embed_signup{
+  background-image: url("/assets/backgrounds/c_image.jpg");
+  background-size: cover;    
+  justify-content: center;   
+  display: flex; 
+  padding-bottom: 45px;
+  
+}
+.indicates-required{
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  color: white;
+  margin-top: 60px;  
+}
+
+.mc-field-group .row{
+  display: inline;
+  
+}
 
 
-
-
-
+#mce-NAME, #mce-EMAIL,#mce-MSG, label,::placeholder{
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+}
+#mc-field-group value{
+  width: 86%;
+  margin: 15px;    
+  margin-bottom: 25px;
+}      
+#mce-MSG{
+  width: 96%;
+  height: 23vh;
+  margin-left: 20px;
+  background: transparent;
+  border: 1px solid;
+  color: white;   
+  margin-bottom: 20px;   
+}  
+.button{
+  margin-bottom: 80px;
+  margin-left: 40px;
+  background-color: transparent;
+  border: 1px solid white;
+}  
+.button:hover{
+  background-color:blueviolet;
+}}
+/* footer section */
