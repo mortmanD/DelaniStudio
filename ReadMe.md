@@ -25,6 +25,6 @@ Email Address:denskari@hotmail.co.uk
 
 ### License
 
-[MIT License](./LICENSE)
+[MIT License](LICENSE)
 
 Copyright (c) 2021 (Dennis Ndonga)
