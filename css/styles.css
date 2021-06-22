@@ -8,7 +8,7 @@
 @media only screen and (min-width: 600px) {  
   /* welcome */
 #welcome{
-  background-image: url("assets/backgrounds/h_img.jpg");
+  background-image: url("/assets/backgrounds/h_img.jpg");
  
   background-size: cover;
       
@@ -54,7 +54,7 @@
   font-size:18.5px;
 }
 #services{
-  background-image: url("assets/backgrounds/s_image.jpg");
+  background-image: url("/assets/backgrounds/s_image.jpg");
   
 }
 #services {
@@ -109,77 +109,77 @@
 }
 
 #portifolio_1{
-  background-image: url("assets/portfolio/work4.jpg");
+  background-image: url("/assets/portfolio/work4.jpg");
   background-size: cover;
 }
 #portifolio_1:hover{
-  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("assets/portfolio/work4.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("/assets/portfolio/work4.jpg");
   background-size: cover;
 
 }
 
 
 #portifolio_2{
-  background-image: url("assets/portfolio/work3.jpg");
+  background-image: url("/assets/portfolio/work3.jpg");
   background-size: cover;
 
 }
 #portifolio_2:hover{
-  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("assets/portfolio/work3.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("/assets/portfolio/work3.jpg");
   background-size: cover;
 
 
 }
 
 #portifolio_3{
-  background-image: url("assets/portfolio/work2.jpg");
+  background-image: url("/assets/portfolio/work2.jpg");
   background-size: cover;
 
 }
 #portifolio_3:hover{
-  background: linear-gradient(white), transparent, url("assets/portfolio/work2.jpg");
+  background: linear-gradient(white), transparent, url("/assets/portfolio/work2.jpg");
   background-size: cover;  
 }  
   #portifolio_4{
-  background-image: url("assets/portfolio/work1.jpg");
+  background-image: url("/assets/portfolio/work1.jpg");
   background-size: cover;  
 }
 #portifolio_4:hover{
-  background: linear-gradient(rgba(0, 0, 0, 0.8),transparent), url("assets/portfolio/work1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8),transparent), url("/assets/portfolio/work1.jpg");
   background-size: cover;  
 }  
 #portifolio_5{
-  background-image: url("assets/portfolio/work5.jpg");
+  background-image: url("/assets/portfolio/work5.jpg");
   background-size: cover;
 
 }
 #portifolio_5:hover{
-  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("assets/portfolio/work5.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("/assets/portfolio/work5.jpg");
   background-size: cover; 
 
 }    
 #portifolio_6{
-  background-image: url("assets/portfolio/work6.jpg");
+  background-image: url("/assets/portfolio/work6.jpg");
   background-size: cover;  
 }
 #portifolio_6:hover{
-  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("assets/portfolio/work6.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("/assets/portfolio/work6.jpg");
   background-size: cover;   
 }    
 #portifolio_7{
-  background-image: url("assets/portfolio/work7.jpg");
+  background-image: url("/assets/portfolio/work7.jpg");
   background-size: cover;  
 }
 #portifolio_7:hover{
-  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("assets/portfolio/work7.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("/assets/portfolio/work7.jpg");
   background-size: cover;    
 }  
 #portifolio_8{
-  background-image: url("assets/portfolio/work8.jpg");
+  background-image: url("/assets/portfolio/work8.jpg");
   background-size: cover;  
 }
 #portifolio_8:hover{
-  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("assets/portfolio/work8.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("/assets/portfolio/work8.jpg");
   background-size: cover; 
 
 }
@@ -199,7 +199,7 @@
               /* contact us */
 
 #contact-us{
-  background-image: url("assets/backgrounds/c_image.jpg");
+  background-image: url("/assets/backgrounds/c_image.jpg");
   background-size: cover;    
   justify-content: center;   
   display: flex; 
@@ -263,7 +263,7 @@
 }
 
 #mc_embed_signup{
-  background-image: url("assets/backgrounds/c_image.jpg");
+  background-image: url("/assets/backgrounds/c_image.jpg");
   background-size: cover;    
   justify-content: center;   
   display: flex; 
@@ -319,7 +319,7 @@
 @media only screen and (max-width: 600px) {
 /* welcome */
 #welcome{
-  background-image: url("assets/backgrounds/h_img.jpg");
+  background-image: url("/assets/backgrounds/h_img.jpg");
  
   background-size: cover;
       
@@ -365,7 +365,7 @@
   font-size:18.5px;
 }
 #services{
-  background-image: url("assets/backgrounds/s_image.jpg");
+  background-image: url("/assets/backgrounds/s_image.jpg");
   
 }
 #services {
@@ -420,77 +420,77 @@
 }
 
 #portifolio_1{
-  background-image: url("assets/portfolio/work4.jpg");
+  background-image: url("/assets/portfolio/work4.jpg");
   background-size: cover;
 }
 #portifolio_1:hover{
-  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("assets/portfolio/work4.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("/assets/portfolio/work4.jpg");
   background-size: cover;
 
 }
 
 
 #portifolio_2{
-  background-image: url("assets/portfolio/work3.jpg");
+  background-image: url("/assets/portfolio/work3.jpg");
   background-size: cover;
 
 }
 #portifolio_2:hover{
-  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("assets/portfolio/work3.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("/assets/portfolio/work3.jpg");
   background-size: cover;
 
 
 }
 
 #portifolio_3{
-  background-image: url("assets/portfolio/work2.jpg");
+  background-image: url("/assets/portfolio/work2.jpg");
   background-size: cover;
 
 }
 #portifolio_3:hover{
-  background: linear-gradient(white), transparent, url("assets/portfolio/work2.jpg");
+  background: linear-gradient(white), transparent, url("/assets/portfolio/work2.jpg");
   background-size: cover;  
 }  
   #portifolio_4{
-  background-image: url("assets/portfolio/work1.jpg");
+  background-image: url("/assets/portfolio/work1.jpg");
   background-size: cover;  
 }
 #portifolio_4:hover{
-  background: linear-gradient(rgba(0, 0, 0, 0.8),transparent), url("assets/portfolio/work1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8),transparent), url("/assets/portfolio/work1.jpg");
   background-size: cover;  
 }  
 #portifolio_5{
-  background-image: url("assets/portfolio/work5.jpg");
+  background-image: url("/assets/portfolio/work5.jpg");
   background-size: cover;
 
 }
 #portifolio_5:hover{
-  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("assets/portfolio/work5.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("/assets/portfolio/work5.jpg");
   background-size: cover; 
 
 }    
 #portifolio_6{
-  background-image: url("assets/portfolio/work6.jpg");
+  background-image: url("/assets/portfolio/work6.jpg");
   background-size: cover;  
 }
 #portifolio_6:hover{
-  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("assets/portfolio/work6.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("/assets/portfolio/work6.jpg");
   background-size: cover;   
 }    
 #portifolio_7{
-  background-image: url("assets/portfolio/work7.jpg");
+  background-image: url("/assets/portfolio/work7.jpg");
   background-size: cover;  
 }
 #portifolio_7:hover{
-  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("assets/portfolio/work7.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("/assets/portfolio/work7.jpg");
   background-size: cover;    
 }  
 #portifolio_8{
-  background-image: url("assets/portfolio/work8.jpg");
+  background-image: url("/assets/portfolio/work8.jpg");
   background-size: cover;  
 }
 #portifolio_8:hover{
-  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("assets/portfolio/work8.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("/assets/portfolio/work8.jpg");
   background-size: cover; 
 
 }
@@ -510,7 +510,7 @@
               /* contact us */
 
 #contact-us{
-  background-image: url("assets/backgrounds/c_image.jpg");
+  background-image: url("/assets/backgrounds/c_image.jpg");
   background-size: cover;    
   justify-content: center;   
   display: flex; 
@@ -577,7 +577,7 @@
 /* mailchip stuff */
 
  #mc_embed_signup{
-  background-image: url("assets/backgrounds/c_image.jpg");
+  background-image: url("/assets/backgrounds/c_image.jpg");
   background-size: cover;    
   justify-content: center;   
   display: flex; 
