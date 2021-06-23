@@ -596,6 +596,11 @@
   display: inline;
   
 }
+#formdesc{
+  color: white;  
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
 #mce-NAME, #mce-EMAIL,#mce-MSG, label,::placeholder{
