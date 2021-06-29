@@ -158,7 +158,39 @@ $(document).ready(function(){
           }
           $('#contact-form').get(0).reset();
           return false;
-          
+                    
         });
       
       });
+    
+  window.formbutton=window.formbutton||function(event){(formbutton.q=formbutton.q||[]).push(arguments)};
+event.preventDefault;
+  /* customize formbutton below*/     
+  formbutton("create", {
+    action: "https://formspree.io/f/xqkwlkoa",
+    title: "How can we help?",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      title: {
+        backgroundColor: "gray"
+      },
+      button: {
+        backgroundColor: "gray"
+      }
+    }
+  });
